@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #C04848;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.logo {
+    margin-bottom: 1em;
+    height: 2.5em;
+    width: 8em;
+}
+
+.searching{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.searching form {
+    width: 98.5%;
+    position: relative;
+}
+
+.searchBox {
+    border: none;
+    border-radius: 1em;
+    font-size: 0.75rem;
+    padding: 0.75em 0em 0.75em 0.5em;
+    width: 100%;
+    color: rgb(218, 218, 218);
+    outline: none;
+    background: rgb(49, 49, 49);
+}
+
+.search-icon
+{
+    width: 1.75em;
+    position: absolute;
+    top: 0.35em;
+    right: 0em;
+    /* z-index: 1; */
+}
+
+.main-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.container1,
+.container2 {
+    border: 1px solid rgba(65, 65, 65,0.4);
+    margin-bottom: 3em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(46, 46, 46);
+    margin-bottom: 1em;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+nav li {
+    padding: 0.25em 0.75em; 
+    margin-bottom: 0.25em;
+}
+
+
+
+.sub-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(39, 39, 39);
+    padding: 0.75em;
+    margin-bottom: 1em;
+}
+
+.sub-nav a {
+    font-size: 1em;
+    color: rgb(235, 235, 235);
+    font-weight: 700;
+    
+}
+
+.sub-nav li {
+    padding: 0.25em;
+    margin-bottom: 0.25em;
+    margin-right: 0.25em;
+}
+
+.active {
+    background: rgb(236, 218, 48);
+    width: 100%;
+    text-align: center;
+}
+
+.active a {
+    color: black;
+}
+
+.boxes1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(10,150px);
+    grid-column-gap: 1em;
+    grid-row-gap: 0.5em;
+    padding: 0.5em;
+}
+
+.boxes2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,150px);
+    grid-column-gap: 1em;
+    grid-row-gap: 0.5em;
+    padding: 0.5em;
+}
+
+.boxes1 div,
+.boxes2 div {
+    cursor: pointer;
+}
+
+.boxes1>div {
+    position: relative;
+}
+
+.boxes2>div {
+    position: relative;
+}
+
+.boxes1>div:nth-child(1) {
+    background: url(https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Life_%282018_TV_series%29.jpg/250px-Life_%282018_TV_series%29.jpg);
+    background-size: cover;
+}
+
+.boxes1>div:nth-child(2) {
+    background: url(https://asianwiki.com/images/b/b2/Goblin-p04.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+ 
+.boxes1 div:nth-child(3) {
+    background: url(https://m.media-amazon.com/images/M/MV5BZWUyYmMyMjktMmFjNC00ZGFiLThjODYtNjQ1MzQyODhmZmVmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(4) {
+    background: url(https://upload.wikimedia.org/wikipedia/en/6/64/Crash_Landing_on_You_main_poster.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(5) {
+    background: url(https://asianwiki.com/images/6/64/Scholar_Who_Walks_the_Night-p1.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(6) {
+    background: url(https://i.pinimg.com/originals/b1/d8/0e/b1d80ec765b5cd41a6bc3b21b6078eaa.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+ 
+.boxes1 div:nth-child(7) {
+    background: url(https://i.mydramalist.com/jW1jdf.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(8) {
+    background: url(https://feministasiandadcom.files.wordpress.com/2019/09/poster-hotel-del-luna.jpg?w=725);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(9) {
+    background: url(https://m.media-amazon.com/images/M/MV5BODY1NWE2OTctOTU5MC00NTlmLWI2MzktMmYzMTUzYjk4YjEzXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(10) {
+    background: url(https://i.mydramalist.com/E24zpf.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+ 
+.boxes1 div:nth-child(11) {
+    background: url(https://img.reelgood.com/content/show/8ecd0ea1-d88a-4ee4-aa4f-2e08318021ef/poster-780.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(12) {
+    background: url(https://i.pinimg.com/736x/3c/8d/db/3c8ddb39a428eff3a3b071c3b6ee670d.jpg);/*kill it*/
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(13) {
+    background: url(https://i.pinimg.com/736x/ac/e3/d0/ace3d02b78cfd84f3e9d2e7b3fbf81fb.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(14) {
+    background: url(https://1739752386.rsc.cdn77.org/data/images/full/243049/kwak-dong-yeon.png);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(15) {
+    background: url(https://asianwiki.com/images/7/76/Backstreet_Rookie-mp1.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(16) {
+    background: url(https://cdn.i-scmp.com/sites/default/files/styles/1920x1080/public/d8/images/methode/2020/06/04/fda2a75c-a4ac-11ea-8ea0-d7434be00753_image_hires_123001.jpg?itok=ChRpUHSP&v=1591245006);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(17) {
+    background: url(https://asianwiki.com/images/f/ff/The_K2-p1.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(18) {
+    background: url(https://m.media-amazon.com/images/M/MV5BMGM2NjYzZWMtN2RjNi00YWZkLTgzNjgtYmQ3Yzg5MzRkNzQ3XkEyXkFqcGdeQXVyMzE4MDkyNTA@._V1_.jpg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(19) {
+    background: url(https://alchetron.com/cdn/school-2013-3718d648-ba5c-4676-9ac8-1ab5c612940-resize-750.jpeg);
+    background-size: cover;
+}
+ 
+.boxes1 div:nth-child(20) {
+    background: url(https://asianwiki.com/images/6/66/School_2017-p2.jpg);
+    background-size: cover;
+}
+
+.boxes2>div:nth-child(1) {
+    background: url(https://asianwiki.com/images/5/5b/My_ID_Is_Gangnam_Beauty-P1.jpg);
+    background-size: cover;
+}
+
+.boxes2>div:nth-child(2) {
+    background: url(https://lh3.googleusercontent.com/Ruy9aUxj7mZkjhV5MVqv5GI1w-M5A321Tst5mpmGha7lDVQjp5IQBYAXKEW0gddD0EpITmg-MwiG_XmmG3v4RsD2bmXDTw5AVKy9BvRHImUPvA=w1200-h630-rj-pp-e365);
+    background-size: cover;
+    background-position: center;
+}
+
+.boxes2 div:nth-child(3) {
+    background: url(https://pbs.twimg.com/media/EJ5pHMWUcAEBtbl.jpg);
+    background-size: cover;
+}
+
+.boxes2 div:nth-child(4) {
+    background: url(https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/crash-landing-on-you-kim-jung-hyun-reunites-with-co-stars_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.boxes2 div:nth-child(5) {
+    background: url(https://m.media-amazon.com/images/M/MV5BYWI2MmFmNjYtMTQ5ZS00YWZjLTlkYjItZGYwYWY1ODgzNmNlXkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    font-size: 0.75rem;
+    background: rgb(0, 174, 197);
+    color: whitesmoke;
+    padding: 0.35em 0.42em;
+    border: none;
+    font-weight: 500;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    color: whitesmoke;
+    bottom: 0;
+    background: rgba(0, 0, 0,0.6);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caption div:nth-child(1) {
+    width: 73%;
+}
+
+.caption div:nth-child(2) {
+    width: 25%;
+}
+
+.title {
+    font-size: 0.9rem;
+    padding: 0.35em 1em 0 1em;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 0.85rem;
+    padding: 0 1em;
+    font-weight: 300;
+    color: rgb(190, 190, 190);
+}
+ 
+.article-title {
+    padding: 0.75em 0.5em;
+    font-size: 0.9rem;
+    text-overflow: ellipsis;
+}
+
+.view-more {
+    text-decoration:none;
+    color: rgb(255, 208, 0);
+    float: right;
+    padding: 1em;
+    font-size: 0.85rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(34, 34, 34);
+    color: rgb(177, 176, 176);
+    font-size: 0.85rem;
+    padding: 1em;
+}
+
+footer a {
+    color: rgb(189, 188, 188);
+}
+
+.copyright {
+    padding: 1.5em;
+}
+
+
+@media (min-width:969px) {
+
+    .container {
+        max-width: 1000px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 15em;
+        height: 4.5em;
+    }
+
+    .searching {
+        width: 30%;
+    }
+
+    .main-grid {
+        flex-direction: row;
+    }
+
+    .container1 {
+        width: 75%;
+    } 
+    
+    .container2 {
+        width: 24%;
+    }
+    
+
+    nav ul {
+        flex-direction: row;
+        padding: 1em;
+    }
+
+    .sub-nav ul {
+        flex-direction: row;
+    }
+
+    .active {
+        width: auto;
+    }
+    
+    .boxes1 {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,180px);
+    }
+
+    .boxes2 {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,180px);
+    }
+    
+    .sub-nav ul {
+        padding: 0 0.75em 0 0;
+        margin-bottom: 0;
+    }
+
+    .sub-nav li {
+        margin-bottom: 0;
+    }
+
+    footer {
+        align-items: flex-start;
+    }
+
+    .copyright {
+        padding: 1.5em 0;
+    }
+}
+
+@media (min-width:479px) and (max-width:969px)  {
+    .boxes1 {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,200px);
+    }
+    
+    .boxes2 {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,200px);
+    }
+
+    .sub-nav ul {
+       flex-direction: row;
+       padding: 0;
+        margin-bottom: 0;
+    }
+
+    .sub-nav li {
+        margin-bottom: 0;
+        width: 25%;
+        text-align: center;
+    }
+
+    footer {
+        align-items: flex-start;
+    }
+
+    .copyright {
+        padding: 1.5em 0;
+    }
+
+}
+
+
+@media (min-width:700px) and (max-width:969px) {
+    .boxes2 {
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows:200px;
+    }
+
+    .sub-nav ul {
+        padding: 0 0.75em 0 0;
+        margin-bottom: 0;
+    }
+
+    .sub-nav li {
+        margin-bottom: 0;
+    }
+}
