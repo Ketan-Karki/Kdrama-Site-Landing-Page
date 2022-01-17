@@ -1,7 +1,7 @@
 # Kdrama-Site-Clone
 
 ## Preview:
-[https://ketankarki.github.io/eBird-Site-Clone/index.html](https://ketankarki.github.io/eBird-Site-Clone/index.html)
+[https://ketankarki.github.io/Kdrama-Site-Clone/](https://ketankarki.github.io/Kdrama-Site-Clone/)
 
 This is a fully responsive clone of a Kdrama streaming website KissAsian made using HTML and CSS only.
 To visit the original site, [Click Here](https://kissasian.la/)
