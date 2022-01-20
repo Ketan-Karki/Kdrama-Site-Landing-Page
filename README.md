@@ -1,12 +1,12 @@
-# Kdrama-Site-Clone
+# Kdrama-Site-Landing Page
 
 ## Preview:
 [https://ketankarki.github.io/Kdrama-Site-Clone/](https://ketankarki.github.io/Kdrama-Site-Clone/)
 
-This is a fully responsive clone of a Kdrama streaming website KissAsian made using HTML and CSS only.
+This is a fully responsive landing page of a Kdrama streaming website KissAsian made using HTML and CSS only.
 To visit the original site, [Click Here](https://kissasian.la/)
 
-* This clone is fully responsive
+* This page is fully responsive
 * This is made with taking original site as insipiration with modifying few things.
 
 ## Technologies Used:
